@@ -1,9 +1,16 @@
-//this program prints the average percentage of five subjects: 
+
 #include<stdio.h>
- int main()
- {
-    float a,b,c,d,e;
-    scanf("%f %f %f %f %f",&a,&b,&c,&d,&e);
-    printf("average percentage = %f %%",(a+b+c+d+e)/5);
-return 0;
- }
+int main()
+{
+    char a;
+    printf("Enter a alphabet");
+    scanf("%c",&a);
+    if( a> 'A' && a < 'Z' ){
+        printf(" It is a Uppercase letter");
+    }
+    else if  ( a >'a' && a<'z' )
+    printf("Lowercase");
+    
+    printf("\n%c",a);
+    return 0;
+}
