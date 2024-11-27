@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    float a,b,r;
+    scanf("%f %f",&a,&b);
+    r=a*b;
+    printf("%f %d",a*b,(int)r);
+    return 0;
+}

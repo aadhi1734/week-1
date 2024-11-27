@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+    int m,g,h,v;
+    scanf("%d %d %d %d",&m,&g,&h,&v);
+    printf("%d",(m*g*h+((1*m*v*v)/2)));
+    return 0;
+}

@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    int v,u,a,t;
+    printf(" Enter the value of intial velocity ");
+    scanf("%d",&u);
+    printf(" Enter the value of acceleration ");
+    scanf("%d",& a);
+    printf(" Enter the value of time ");
+    scanf("%d",&t);
+     v = u + (a*t);
+     printf("the value of the final velocity is %d:",v);
+     return 0;
+}
